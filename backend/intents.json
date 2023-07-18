@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good day",
+        "sup",
+        "what's up",
+        "how's it going",
+        "greetings",
+        "how do you do"
+      ],
+      "response": [
+        "Hello!",
+        "Hi!",
+        "Hey!",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "see you",
+        "goodbye",
+        "see ya",
+        "bye",
+        "i'm leaving",
+        "have a good day",
+        "cao",
+        "ttyl"
+      ],
+      "response": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Bye!",
+        "Good Bye!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name",
+        "what should i call you",
+        "who are you",
+        "can you tell me your name",
+        "tell me about yourself a little",
+        "tell me about yourself"
+      ],
+      "response": [
+        "I'm a ChatBot.",
+        "You can call me ChatBot.",
+        "My creator named me ChatBot."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "what's your age?",
+        "how old are you",
+        "your age",
+        "can you tell me your age"
+      ],
+      "response": [
+        "My creator was 23 years old at the time of creating me.",
+        "My creator created me when he was 23 years old."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "can you tell me a joke",
+        "tell me a joke",
+        "make me laugh",
+        "tell a joke",
+        "say a joke",
+        "i wanna hear a joke",
+        "i want to hear a joke"
+      ],
+      "response": [
+        "Why did Adele cross the road? To say hello from the other side.",
+        "My creator is so hopeless. The only way he can ever have a smoking hot body is by being cremated.",
+        "Can February March? No, but April May.",
+        "My creator stole the heart of a cute girl. He is now in jail.",
+        "Becoming a vegetarian is one big missed steak."
+      ]
+    },
+    {
+      "tag": "quotes",
+      "patterns": [
+        "give me a good quote",
+        "tell me a good quote",
+        "quote of the day"
+      ],
+      "response": [
+        "The way I see it, if you want the rainbow, you have to put up with the rain. ~Dolly Parton",
+        "Many of life's failures are people who do not realize how close they were to success before giving up. ~Thomas A. Edison",
+        "Never let the fear of striking out keep you from playing the game. ~Babe Ruth",
+        "If life were predictable it would cease to be life, and be without flavor. ~Eleanor Roosevelt",
+        "Life is not a problem to be solved, but a reality to be experienced. ~Soren Kierkegaard"
+      ]
+    }
+  ]
+}
